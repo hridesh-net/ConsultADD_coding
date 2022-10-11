@@ -11,7 +11,9 @@ class Remove_duplicate {
         HashMap<Character, Integer> map = new HashMap<>();
         for (int i = 0; i < str.length; i++){
             if (!map.containsKey(str[i])){
+                map.clear();
                 new_str = new_str + str[i];
+                map.put(str[i], i);
             }
         }
         System.out.println(new_str);
