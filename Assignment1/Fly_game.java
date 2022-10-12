@@ -36,6 +36,7 @@ public class Fly_game {
         // }
         // System.out.println("True");
         System.out.println(ans);
+        sc.close();
     }
     public static boolean Fly(int[] arr){
         int current = 0;
