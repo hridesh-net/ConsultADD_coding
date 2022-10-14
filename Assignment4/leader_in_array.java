@@ -2,7 +2,7 @@ package Assignment4;
 
 import java.io.*;
 import java.util.*;
-import java.util.stream.*;
+// import java.util.stream.*;
 
 public class leader_in_array {
     public static void main(String[] args) throws IOException {
@@ -43,7 +43,7 @@ public class leader_in_array {
 
 class Solution {
     // Function to find the leaders in the array.
-    static ArrayList<Integer> leaders(int arr[], int n) {
+     static ArrayList<Integer> leaders(int arr[], int n) {
         // Your code here
         ArrayList<Integer> list = new ArrayList<Integer>();
 
