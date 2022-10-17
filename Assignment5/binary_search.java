@@ -18,6 +18,7 @@ public class binary_search {
             System.out.println(g.binarysearch(arr, n, key));
             T--;
         }
+        sc.close();
     }
 }
 
