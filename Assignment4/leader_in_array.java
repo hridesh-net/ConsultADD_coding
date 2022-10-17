@@ -43,7 +43,7 @@ public class leader_in_array {
 
 class Solution {
     // Function to find the leaders in the array.
-     static ArrayList<Integer> leaders(int arr[], int n) {
+     public ArrayList<Integer> leaders(int arr[], int n) {
         // Your code here
         ArrayList<Integer> list = new ArrayList<Integer>();
 
