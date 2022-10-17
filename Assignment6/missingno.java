@@ -12,7 +12,8 @@ public class missingno {
             arrli.add(i);
         
         Solution st = new Solution();
-        st.missingAndRepeating(arrli, n);        
+        st.missingAndRepeating(arrli, n);   
+        sc.close();     
     }
 }
 
