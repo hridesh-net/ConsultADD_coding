@@ -22,6 +22,7 @@ public class kth_smallest_element {
 		    out.println(ob.kthSmallest(arr, 0, n-1, k));
 		}
 		out.flush();
+		sc.close();
 	}
 }
 
