@@ -1,4 +1,4 @@
-package Assignmenet7;
+package Assignment7;
 import java.util.* ;
 // import java.io.*; 
 

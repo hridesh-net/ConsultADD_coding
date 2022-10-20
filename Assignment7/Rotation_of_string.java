@@ -1,4 +1,4 @@
-package Assignmenet7;
+package Assignment7;
 import java.util.* ;
 // import java.io.*; 
 
@@ -16,7 +16,7 @@ public class Rotation_of_string {
 
 
 class Solution {
-    public static int isCyclicRotation(String p, String q)  {
+    public int isCyclicRotation(String p, String q)  {
          String hold = p+p;
         if(hold.contains(q)) return 1;
         return 0;
